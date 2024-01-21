@@ -2,7 +2,7 @@
     const repositoriesContainer = document.getElementById('repositories');
     const currentPageSpan = document.getElementById('currentPage');
     const searchInput = document.getElementById('searchInput');
-    const token = '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'; // Replace with your actual personal access token
+    const token = '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'; // Replace with your actual personal access token
     let username = '';
     let currentPage = 1;
     let repositoriesData = [];
