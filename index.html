@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>GitHub Repositories</title>
+</head>
+<body>
+
+  <header>
+    <div class="user-details" id="userDetails">
+      <!-- User details will be displayed here -->
+    </div>
+    <div class="search-bar">
+      <input type="text" id="usernameInput" placeholder="Enter GitHub username">
+      <button onclick="fetchRepositories()">Fetch Repositories</button>
+    </div>
+    <div class="search-bar1">
+      <input type="text" id="searchInput" placeholder="Search by title or description" oninput="filterRepositories()">
+    </div>
+  </header>
+
+  <main>
+    <div id="repositories" class="repo-container">
+      <!-- Repositories will be displayed here -->
+    </div>
+
+    <div class="pagination" id="togglebtns">
+      <button onclick="prevPage()">Previous</button>
+      <span id="currentPage">1</span>
+      <button onclick="nextPage()">Next</button>
+    </div>
+  </main>
+  <script src="index.js"></script>
+
+</body>
+</html>
