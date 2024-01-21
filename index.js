@@ -99,7 +99,7 @@
       currentPageSpan.innerText = currentPage;
       document.querySelector('.search-bar').style.display = 'block';
       document.getElementById('togglebtns').style.display = 'block';
-      document.getElementsByClassName('search-bar1')[0].style.display = 'block';
+      document.getElementsByClassName('search-bar-title-desc')[0].style.display = 'block';
     }
 
     function filterRepositories() {

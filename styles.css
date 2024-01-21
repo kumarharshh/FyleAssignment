@@ -65,12 +65,12 @@ body {
     margin-bottom: 20px;
   }
 
-  .search-bar1,#togglebtns {
+  .search-bar-title-desc,#togglebtns {
     display: none;
     margin-bottom: 20px;
   }
 
-  .search-bar input {
+  .search-bar,.search-bar-title-desc input {
     padding: 8px;
     font-size: 14px;
   }
