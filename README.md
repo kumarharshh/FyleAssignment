@@ -35,7 +35,7 @@ No installation is required. Simply open the index.html file in a web browser.
 bash
 Copy code
 # Clone the repository (if needed)
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/kumarharshh/FyleAssignment.git
 
 # Open the index.html file in your preferred web browser
 Usage
