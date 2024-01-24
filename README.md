@@ -24,6 +24,7 @@ Pagination support for browsing multiple pages of repositories, by default the n
 
 Assumptions
 The topics are buttons which don't lead you anywhere and I thought it had to static so it's same for all the list elements.
+Also in the live version the fetching will be shown unsuccessful, because the github token was used in the code and it was getting revoked, so we were told not to use any libraries so I couldn’t use env file, but I could think of a solution, that we can take the input of Github Access Token from the user and then save it to the local storage and then use it.
 
 Requirements
 To run this project, you need the following:
